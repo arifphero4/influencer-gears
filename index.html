@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Influencer Products</title>
     <!--------- styleSheet -------->
     <link rel="stylesheet" href="./styleSheet/styles.css" />
 
@@ -17,8 +17,27 @@
   <body>
     <!-- header section -->
     <header>
-      <nav>
-        <!-- navBar pore korbo -->
+      <nav class="container">
+        <div class="logo">
+          <h3>Influencer Products</h3>
+        </div>
+        <input type="checkbox" id="nav-toggler" />
+        <label class="nav-toggler-icon" for="nav-toggler">
+          <i class="card-icon fas fa-bars"></i>
+        </label>
+        <ul class="navigation">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Log In</a></li>
+
+          <li>
+            <a href="#"><i class="fas fa-search"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          </li>
+        </ul>
       </nav>
       <!--------- top banner -------->
       <section class="container">
@@ -82,8 +101,8 @@
           <div class="product-card">
             <div><img src="./images/mic.png" alt="" /></div>
             <div class="product-details">
-              <h4 class="product-name">Flex Tripod</h4>
-              <p product-price>$50.48</p>
+              <h4 class="product-name">Microphone</h4>
+              <p product-price>$120.25</p>
               <div>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -101,8 +120,8 @@
           <div class="product-card">
             <div><img src="./images/airpod.png" alt="" /></div>
             <div class="product-details">
-              <h4 class="product-name">Flex Tripod</h4>
-              <p product-price>$50.48</p>
+              <h4 class="product-name">Airbuds</h4>
+              <p product-price>$100.00</p>
               <div>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -120,8 +139,8 @@
           <div class="product-card">
             <div><img src="./images/drone.png" alt="" /></div>
             <div class="product-details">
-              <h4 class="product-name">Flex Tripod</h4>
-              <p product-price>$50.48</p>
+              <h4 class="product-name">Drone</h4>
+              <p product-price>$980.48</p>
               <div>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -139,8 +158,8 @@
           <div class="product-card">
             <div><img src="./images/lights.png" alt="" /></div>
             <div class="product-details">
-              <h4 class="product-name">Flex Tripod</h4>
-              <p product-price>$50.48</p>
+              <h4 class="product-name">Light Setup</h4>
+              <p product-price>$1200.48</p>
               <div>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -158,8 +177,8 @@
           <div class="product-card">
             <div><img src="./images/setup.png" alt="" /></div>
             <div class="product-details">
-              <h4 class="product-name">Flex Tripod</h4>
-              <p product-price>$50.48</p>
+              <h4 class="product-name">Photoshoot Set</h4>
+              <p product-price>$840.20</p>
               <div>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -177,8 +196,8 @@
           <div class="product-card">
             <div><img src="./images/camera.png" alt="" /></div>
             <div class="product-details">
-              <h4 class="product-name">Flex Tripod</h4>
-              <p product-price>$50.48</p>
+              <h4 class="product-name">Vlogging Camera</h4>
+              <p product-price>$1700.54</p>
               <div>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -196,8 +215,8 @@
           <div class="product-card">
             <div><img src="./images/single-light.png" alt="" /></div>
             <div class="product-details">
-              <h4 class="product-name">Flex Tripod</h4>
-              <p product-price>$50.48</p>
+              <h4 class="product-name">Green Screen</h4>
+              <p product-price>$340.48</p>
               <div>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -215,8 +234,8 @@
           <div class="product-card">
             <div><img src="./images/action.png" alt="" /></div>
             <div class="product-details">
-              <h4 class="product-name">Flex Tripod</h4>
-              <p product-price>$50.48</p>
+              <h4 class="product-name">Action Camera</h4>
+              <p product-price>$380.50</p>
               <div>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -256,6 +275,29 @@
         </div>
       </section>
 
+      <!------------ Extra section  ------------>
+      <section class="container">
+        <h2 id="contact-title">Contact Us</h2>
+        <div class="contact">
+          <div class="contact-left">
+            <form action="">
+              <input type="text" placeholder="Your Name" class="text-field" />
+              <input type="email" placeholder="Your Email" class="text-field" />
+              <textarea
+                placeholder="Your Message"
+                class="text-field"
+                id=""
+                cols="20"
+                rows="8"
+              ></textarea>
+              <button class="button-style">Submit</button>
+            </form>
+          </div>
+          <div class="contact-right">
+            <img src="./images/contact-3.svg" alt="" />
+          </div>
+        </div>
+      </section>
       <!--------- Footer section  ----------->
       <footer>
         <div class="footer-container">
@@ -264,6 +306,20 @@
             Copyright &copy; 2020 influencer products <br />
             All rights reserved
           </p>
+        </div>
+        <div class="footer-icon">
+          <a target="_blank" href="https://www.facebook.com/"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a target="_blank" href="https://www.twitter.com/"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a target="_blank" href="https://www.instagram.com/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a target="_blank" href="https://www.youtube.com/"
+            ><i class="fab fa-youtube"></i
+          ></a>
         </div>
       </footer>
     </main>

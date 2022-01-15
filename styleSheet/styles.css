@@ -10,6 +10,9 @@ padding: 0;
 body{
     font-family: 'Poppins', sans-serif;
 }
+footer{
+    background: #0A0826;
+}
 
 .container{
     max-width: 1200px;
@@ -29,9 +32,15 @@ body{
 /* font awesome classes */
 .fa-arrow-right{
     margin-left: 10px;
+   
 }
 .fa-star{
-    color: #FB8200;
+    color:#FFC014;
+    font-size: 12px;
+
+}
+#empty{
+    color: #AEAEAE;
 }
 
 /*-------------- top-banner style ---------- */
@@ -126,4 +135,51 @@ body{
     margin: 20px;
     text-transform: uppercase;
 
+}
+
+/* ----------------- feature section  --------------- */
+.feature-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 40px 0px;
+}
+
+.feature-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature-left img{
+    width: 80%;
+}
+
+.feature-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;  
+}
+.feature-right h3{
+    font-size: 30px;
+    color: #0A0826;
+    text-transform: uppercase;
+}
+.feature-right p{
+    font-size: 16px;
+    margin: 20px 0px;
+    color: #6C6C6C;
+}
+
+.footer-container{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 40px 0px;
+}
+.footer-container h4{
+    font-size: 24px;
+}
+.footer-container p{
+    color: #D9DBE1;
+    font-size: 14px;
+   margin: 10px 0px;
 }
